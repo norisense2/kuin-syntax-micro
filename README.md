@@ -1,2 +1,3 @@
 # kuin-syntax-micro
-microでKuinを書こうの会
+
+microエディタでKuinを書いたときにハイライトが乗るようにするやつ
