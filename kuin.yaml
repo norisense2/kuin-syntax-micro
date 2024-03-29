@@ -23,7 +23,7 @@ rules:
         rules: []
 
     - comment:
-        start: ";"
+        start: "^ *;"
         end: "$"
         rules:
             - todo: "(TODO|FIXME|XXX)"
