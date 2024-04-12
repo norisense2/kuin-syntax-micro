@@ -19,7 +19,7 @@ rules:
     - constant.string:
         start: "\""
         end: "\""
-        skip: "[^\\\\]\\\\\""
+        skip: "([^\\\\]\\\\\"|\\\\{.*(\".*\")*.*})"
         rules: []
 
     - comment:
